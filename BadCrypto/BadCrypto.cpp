@@ -73,6 +73,7 @@ int main(int argc, char* argv[]) {
     }
     return 0;
 }
+
 /* 8-bit LFSR, period: 255 (see wikipedia) */
 uint8_t LFSR(void) {
     static uint8_t lfsr = seed;
@@ -80,6 +81,7 @@ uint8_t LFSR(void) {
     lfsr = (lfsr >> 1) | (bit << 7);
     return lfsr;
 }
+
 /* 8-bit pearson hash (see wikipedia) */
 uint8_t pearson8(const unsigned char* x, size_t len) {
     size_t i, j;
@@ -93,8 +95,6 @@ uint8_t pearson8(const unsigned char* x, size_t len) {
     }
     return retval;
 }
-
-
 
 
 //LINE 100
