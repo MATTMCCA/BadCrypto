@@ -1,0 +1,67 @@
+=======================================================
+===================          1st Run        ======================
+=======================================================
+
+******** File Hash Befor Encryption ***********
+
+MD5 hash of bench.dat:
+d62951e0c2c333629e5e3759c68849b2
+CertUtil: -hashfile command completed successfully.
+----------------------------------------------------------
+
+******** Time Elapsed ***********
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 557
+Ticks             : 5572642
+TotalDays         : 6.44981712962963E-06
+TotalHours        : 0.000154795611111111
+TotalMinutes      : 0.00928773666666667
+TotalSeconds      : 0.5572642
+TotalMilliseconds : 557.2642
+----------------------------------------------------------
+
+******** File Hash After Encryption ***********
+
+MD5 hash of bench.dat:
+c41e7ead9526c4ccd7a2c776669fc680
+CertUtil: -hashfile command completed successfully.
+----------------------------------------------------------
+Press any key to continue . . .
+
+=======================================================
+===================        2nd Run        ======================
+=======================================================
+
+******** File Hash Befor Encryption ***********
+
+MD5 hash of bench.dat:
+c41e7ead9526c4ccd7a2c776669fc680
+CertUtil: -hashfile command completed successfully.
+----------------------------------------------------------
+
+******** Time Elapsed ***********
+
+Days              : 0
+Hours             : 0
+Minutes           : 0
+Seconds           : 0
+Milliseconds      : 543
+Ticks             : 5437099
+TotalDays         : 6.29293865740741E-06
+TotalHours        : 0.000151030527777778
+TotalMinutes      : 0.00906183166666667
+TotalSeconds      : 0.5437099
+TotalMilliseconds : 543.7099
+----------------------------------------------------------
+
+******** File Hash After Encryption ***********
+
+MD5 hash of bench.dat:
+d62951e0c2c333629e5e3759c68849b2
+CertUtil: -hashfile command completed successfully.
+----------------------------------------------------------
+Press any key to continue . . .

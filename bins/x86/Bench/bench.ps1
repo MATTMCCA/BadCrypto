@@ -1,0 +1,1 @@
+Measure-Command { .\BadCrypto.exe bench.dat HorseStapleBattery }
