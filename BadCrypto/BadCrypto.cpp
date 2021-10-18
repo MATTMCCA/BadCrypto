@@ -39,14 +39,8 @@ uint8_t LFSR(void);
 int main(int argc, char* argv[]) {
     char* file_name = nullptr;
     char* password = nullptr;
-    if (argc >= 3) {
-        file_name = argv[1];
-        password = argv[2];
-    }
-    else {
-        printf("%s FILENAME PASSWORD\n", argv[0]);
-        return 1;
-    }
+    if (argc == 3) { file_name = argv[1]; password = argv[2]; }
+    else { printf("%s FILENAME PASSWORD\n", argv[0]); return 1; }
     seed = pearson8((const unsigned char*)password, strlen(password));
     //printf("FileName:\t%s\nHash:0x%.2X\t[%s]\n", file_name, seed, password); //debuging statement
     /* File IO needs more error handeling */
@@ -99,4 +93,8 @@ uint8_t pearson8(const unsigned char* x, size_t len) {
     }
     return retval;
 }
+
+
+
+
 //LINE 100
