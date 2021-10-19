@@ -6,6 +6,7 @@
      MJM - 2021, 100 lines
 */
 
+#include <cstring>
 #include <cstdio>
 #include <cstdint>
 #include <iostream>
@@ -95,6 +96,5 @@ uint8_t pearson8(const unsigned char* x, size_t len) {
     }
     return retval;
 }
-
 
 //LINE 100
