@@ -16,3 +16,4 @@ This was just a fun coding exercise in algorithmic implementation / security. Th
 The working parts were mainly implemented for speed. The above is not very taxing in terms of computation. So I could see this being used in a very low power system that requires very basic obfuscation. 
 
 
+### Borrowed works maintain original license.
